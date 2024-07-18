@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de satisfação</title>
+</head>
+<body>
+    <header><h1>Pesquisa de satisfação</h1></header>
+    <article>
+      <form action="." method="post">
+        <section>
+         <header><h3>Preencha os seguintes dados pessoais:</h3></header>
+          <p>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Nome"/>
+          </p>
+          <p>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="E-mail">
+          </p>
+          <p>
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel" placeholder="Telefone para contato">
+          </p>
+        </section>
+        <section>
+            <header><h3>Por favor responda as seguintes perguntas:</h3></header>
+            <p>
+                <header><h4>Na escala de 1 a 5 como você avalia nosso atendimento?</h4></header>
+                <label for="av1">1-</label>
+                <input id="av1" type="radio" name="av atendimento">
+                <label for="av2">2-</label>
+                <input id="av2" type="radio" name="av atendimento">
+                <label for="av3">3-</label>
+                <input id="av3" type="radio" name="av atendimento">
+                <label for="av4">4-</label>
+                <input id="av4" type="radio" name="av atendimento">
+                <label for="av5">5-</label>
+                <input id="av5" type="radio" name="av atendimento">
+            </p>
+            <p>
+                <header><h4>Na escala de 1 a 5 como você avalia a qualidade do serviço oferecido</h4></header>
+                <label for="as1">1-</label>
+                <input id="as1" type="radio" name="as serviço">
+                <label for="as2">2-</label>
+                <input id="as2" type="radio" name="as serviço">
+                <label for="as3">3-</label>
+                <input id="as3" type="radio" name="as serviço">
+                <label for="as4">4-</label>
+                <input id="as4" type="radio" name="as serviço">
+                <label for="as5">5-</label>
+                <input id="as5" type="radio" name="as serviço">
+            </p>
+            <p>
+                <header><h4>Informe em qual unidade você foi atendido</h4></header>
+                <select>
+                    <option>Bom Despacho</option>
+                    <option>Itabira</option>
+                </select>
+            </p>
+        </section>
+        <p>
+        <label for="Compartilhar com terceiros">Autoriza compartilhar sua resposta com terceiros?</label>
+        <input id="Compartilhar com terceiros" type="checkbox" name="Compartilhar">
+        </p>
+        <p>
+            <input id="enviar formulário" type="submit" value="Enviar formulário">
+        </p>
+      </form>
+    </article>
+</body>
+</html>
