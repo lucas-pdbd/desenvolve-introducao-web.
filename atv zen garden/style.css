@@ -106,3 +106,22 @@ border: solid 2px;
 .participation h3 {
     align-self: center;
 }
+a {
+    color: rgba(33, 33, 131, 0.637);
+}
+a:hover {
+    color: blue;
+}
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+.design-selection li {
+    border-top: goldenrod 1px;
+    padding-top: 1px;
+}
+.design-selection li:last-of-type {
+    border-bottom: #1f295c 1px;
+    padding-bottom: 1px;
+}
