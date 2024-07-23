@@ -125,3 +125,39 @@ a:hover {
     border-bottom: #1f295c 1px;
     padding-bottom: 1px;
 }
+@media screen and (max-width: 768px){
+.design-selection {
+    position: static;
+    width: 100%;
+}
+.explanation {
+    border-right: none;
+    width: 100%;
+}
+#zen-intro {
+    height: auto;
+}
+.participation {
+    flex-direction: column;
+}
+p{
+    text-indent: 0;
+}
+}
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #zen-intro header {
+        background-color: white;
+        color: goldenrod;
+    }
+    .design-selection{
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+}
